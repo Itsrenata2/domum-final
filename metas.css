@@ -1,0 +1,76 @@
+#metas {
+    background-color: var(--cor-secundaria);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+    border-radius: 1rem;
+}
+
+#metas img {
+    width: 5rem;
+}
+
+#metas h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#metas p {
+    font-weight: 300;
+    margin: 0.5rem auto 2rem auto;
+    width: 60%;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+    #metas {
+        padding: 6rem 1.5rem;
+    }
+
+    #metas-sessao {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #metas p {
+        margin: 0.5rem auto 0 auto;
+    }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1080px) {
+    #metas {
+        padding: 7rem 1.5rem;
+    }
+
+    #metas-sessao {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #metas h4 {
+        font-size: 2rem;
+    }
+
+    #metas p {
+        font-size: 1.5rem;
+        margin: 0.5rem auto 0 auto;
+    }
+}
+
+/* TELAS MAIORES */
+@media screen and (min-width: 1280px) {
+    #metas {
+        padding: 8rem 1.5rem;
+    }
+
+    #metas-sessao {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #metas p {
+        margin: 0.5rem auto 0 auto;
+    }
+}

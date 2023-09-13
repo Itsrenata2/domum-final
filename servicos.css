@@ -1,0 +1,124 @@
+#servicos {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+#servicos h2 {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.container {
+    width: 90% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    width: 90%; 
+    height: 70%;
+    border-radius: 0.125rem 0.125rem 0.125rem 3.125rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35); 
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cards img {
+    width: 5rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+}
+
+#card-info {
+    width: 70%;
+    text-align: right;
+}
+
+.cards h4 {
+    font-family: var(--fonte-titulo);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--cor-principal);
+    padding-top: 0.3rem;
+}
+
+.cards p {
+    color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+    padding-top: 1rem;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+    #servicos h2 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 8%;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    
+    .card:hover {
+        transform: translate(0px, 0px) scale(1.05, 1.05);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1080px) {
+    #servicos h2 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 3%;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    
+    .card:hover {
+        transform: translate(0px, 0px) scale(1.05, 1.05);
+    }
+}
+
+/* TELAS MAIORES */
+@media screen and (min-width: 1280px) {
+    #servicos h2 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 3%;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    
+    .card:hover {
+        transform: translate(0px, 0px) scale(1.05, 1.05);
+    }
+}

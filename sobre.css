@@ -1,0 +1,101 @@
+#sobre {
+    color: var(--cor-terciaria);
+    padding: 3rem 2rem;
+}
+
+#sobre h2 {
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#sobre p {
+    font-family: var(--fonte-texto);
+    font-weight: 300;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.05em;
+    width: 100%;
+}
+
+#sobre img {
+    display: none;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+    #sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5rem 2rem;
+    }
+
+    #sobre h2 {
+        font-size: 2rem;
+    }
+
+    #sobre p {
+        font-size: 1.3rem;
+        width: 80%;
+    }
+
+    #sobre img {
+        display: block;
+        width: 12rem;
+        margin-right: 3rem;
+    }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1080px) {
+    #sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6rem 3rem;
+    }
+
+    #sobre h2 {
+        font-size: 2rem;
+    }
+
+    #sobre p {
+        font-size: 1.3rem;
+        width: 70%;
+    }
+
+    #sobre img {
+        display: block;
+        width: 12rem;
+        margin-right: 3rem;
+    }
+}
+
+/* TELAS MAIORES */
+@media screen and (min-width: 1280px) {
+    #sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8rem 5rem;
+    }
+
+    #sobre h2 {
+        font-size: 2.5rem;
+    }
+
+    #sobre p {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    #sobre img {
+        display: block;
+        width: 15rem;
+        margin-right: 5rem;
+    }
+}

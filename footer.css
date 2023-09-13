@@ -1,0 +1,166 @@
+footer {
+    background-color: var(--cor-terciaria);
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    color: var(--cor-principal);
+    font-family: var(--fonte-titulo);
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    gap: 1rem;
+}
+
+#contato a {
+    color: var(--cor-principal);
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+}
+
+#footer-icons {
+    display: flex;
+    flex-direction: column;
+} 
+
+#footer-icons img {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+
+#footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20%;
+    margin-top: 0.5rem;
+}
+
+#footer-info a {
+    color: var(--cor-principal);
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+}
+
+#traco {
+    display: none;
+}
+
+#footer-nav {
+    display: none;
+}
+
+#logo-footer {
+    display: none;
+}
+
+iframe {
+    display: none;
+}
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        gap: 8%;
+        align-items: center;
+        padding: 2rem 2rem 1rem 1.5rem;
+    }
+    
+    #traco {
+        display: block;
+        border: 1px solid var(--cor-principal);
+        height: 10rem;
+    }
+
+    #footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8%;
+    }
+
+    #footer-nav a {
+        text-decoration: none;
+        color: var(--cor-principal);
+        margin-bottom: 20%;
+    }
+    
+    #logo-footer {
+        display: none;
+    }
+
+    iframe {
+        display: block;
+    }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1080px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 8%;
+    }
+    
+    #traco {
+        display: block;
+        border-left: 1px solid var(--cor-principal);
+    }
+
+    #footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8%;
+    }
+
+    #footer-nav a {
+        text-decoration: none;
+        color: var(--cor-principal);
+    }
+
+    #footer-nav a:hover {
+        color: var(--cor-secundaria);
+    }
+    
+    #logo-footer {
+        display: block;
+        margin-left: 1rem;
+    }
+}
+
+/* TELAS MAIORES */
+@media screen and (min-width: 1280px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 8%;
+    }
+    
+    #traco {
+        display: block;
+        border-left: 1px solid var(--cor-principal);
+    }
+
+    #footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8%;
+    }
+
+    #footer-nav a {
+        text-decoration: none;
+        color: var(--cor-principal);
+    }
+    
+    #logo-footer {
+        display: block;
+        margin-left: 0;
+    }
+}

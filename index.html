@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domum Engenharia</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="botao.css">
+    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="metas.css">
+    <link rel="stylesheet" href="servicos.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo-icone.svg">
+            <div class="dropdown">
+                <img src="img/menu-nav.svg" onclick="myFunction()" class="dropbtn">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#sobre"><li class="nav-lista">SOBRE</li></a>
+                    <a href="#metas"><li class="nav-lista">METAS</li></a>
+                    <a href="#servicos"><li class="nav-lista">SERVIÇOS</li></a>
+                    <a href="#contato"><li class="nav-lista">CONTATO</li></a>
+                </div>
+            </div>
+        </nav>
+        <h1>Transformando Energia em Soluções <span>Elétricas!</span></h1>
+        <h3>projetos e consultoria, análise de sistemas elétricos, instalações elétricas, manutenção e reparo, eficiência energética...</h3>
+        <div id="btn">
+            <button id="btn-contato"><a href="#contato">Entre em contato</a></button>
+        </div>
+        
+    </header>
+    <main>
+        <section id="sobre">
+            <div>
+                <h2>Sobre</h2>
+                <p>Empresa especializada em engenharia elétrica que se destaca no mercado pela excelência e inovação em seus serviços. 
+                <br><br>
+                Com uma equipe altamente capacitada e apaixonada pela energia elétrica, a empresa oferece soluções personalizadas e eficientes para atender às demandas dos clientes, desde projetos residenciais até grandes empreendimentos comerciais e industriais.</p>
+            </div>
+            <div>
+                <img src="img/logo-nome.svg">
+            </div>
+        </section>
+        <section id="metas">
+            <div id="metas-sessao">
+                <div id="missao">
+                    <img src="img/alvo.svg">
+                    <h4>Missão</h4>
+                    <p>atender demandas com qualidade e compromisso</p>
+                </div>
+                <div id="visao">
+                    <img src="img/alvo.svg">
+                    <h4>Visão</h4>
+                    <p>proporcionar conforto e comodidade</p>
+                </div>
+                <div id="valores">
+                    <img src="img/alvo.svg">
+                    <h4>Valores</h4>
+                    <p>compromisso, ética, transparência e inovação</p>
+                </div>
+            </div>
+        </section>
+        <section id="servicos">
+            <h2>Serviços</h2>
+                <div class="container">
+                    <div class="cards">
+                        <div class="card"> 
+                            <img src="img/consultoria.svg">
+                            <div id="card-info">
+                                <h4>Consultoria</h4>
+                                <p>projetos elétricos para diversos tipos de construções</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="img/analise.svg">
+                            <div id="card-info">
+                                <h4>Análise</h4>
+                                <p>análises detalhadas de sistemas elétricos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">                  
+                            <img src="img/instalacao.svg">
+                            <div id="card-info">
+                                <h4>Instalação</h4>
+                                <p>instalação e configuração de sistemas elétricos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">                          
+                            <img src="img/manutencao.svg">
+                            <div id="card-info">
+                                <h4>Manutenção</h4>
+                                <p>manutenção preventiva e corretiva em sistemas elétricos existentes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="img/eficiencia.svg">
+                            <div id="card-info">
+                                <h4>Eficiência</h4>
+                                <p>soluções para reduzir o consumo energético</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <section>   
+            <div id="contato">
+                <div id="footer-icons">
+                    <a href="tel: +5571986543156"><img src="img/telefone.svg"></a>
+                    <a href="mailto:domumengenharia@hotmail.com"><img src="img/email.svg"></a>
+                    <a href="https://goo.gl/maps/Bg38T1pGhRtLK9My6"><img src="img/localizacao.svg"></a>
+                </div>
+                <div id="footer-info">
+                    <a href="tel: +5571986543156"><p>71 98654-3156</p></a>
+                    <a href="mailto:domumengenharia@hotmail.com"><p>domumengenharia@hotmail.com</p></a>
+                    <a href="https://goo.gl/maps/Bg38T1pGhRtLK9My6"><p>Rua da Vitória, 7</p></a>
+                </div>
+            </div>
+        </section>
+        <div id="traco"></div>
+        <div id="footer-nav">
+            <a href="#sobre">Sobre</a>
+            <a href="#metas">Metas</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.57204817343!2d-38.48134542626221!3d-12.93520415907575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161aa946a82e63%3A0x53fdf801283e4a66!2sR.%20Manoel%20Fernandes%2C%2021%20-%20S%C3%A3o%20Caetano%2C%20Salvador%20-%20BA%2C%2040390-755!5e0!3m2!1spt-BR!2sbr!4v1689546196716!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <img src="img/logo-nome-branca.svg" id="logo-footer">
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
